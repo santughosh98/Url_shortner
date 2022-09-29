@@ -1,5 +1,11 @@
+const urlModel = require('../models/urlModel')
 
 const createShortUrl = async function(req, res){
-    console.log("hi")
+    
 }
-module.exports = {createShortUrl}
+
+const getFullUrl = async function(req,res){
+
+}
+
+module.exports = {createShortUrl , getFullUrl}
